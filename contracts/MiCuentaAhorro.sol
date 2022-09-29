@@ -86,7 +86,7 @@ contract Ejercicio1CuentaAhorro {
 
 pragma solidity ^0.8.0;
 
-contract Ejercicio1CuentaAhorro {
+contract Mi {
 
     struct CuentaAhorro {
         int saldo; 

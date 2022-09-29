@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "_edad",
+						"type": "int8"
+					},
+					{
+						"internalType": "string",
+						"name": "_colorFav",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "monto",
+						"type": "uint8"
+					}
+				],
+				"name": "agregarSaldo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "c1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "edad",
+						"type": "int8"
+					},
+					{
+						"internalType": "string",
+						"name": "colorFav",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "saldo",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSaldo",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "monto",
+						"type": "uint8"
+					}
+				],
+				"name": "restarSaldo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClaseCuentaAhorro.sol": "cuentaAhorro"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClaseCuentaAhorro.sol": {
+			"keccak256": "0xa0419a5c473d90013d7cbd2f818fa7ccee5ea894d718fdf695d23e40e14a00c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8588282514bdc7796835c43bfaca0e8b28b51540da0d84751ee166b4c60cb5a7",
+				"dweb:/ipfs/QmQCfkhWLwDfpmN2sdFLnyuZRCeoDQWk3zGFx5LJjXaRuE"
+			]
+		}
+	},
+	"version": 1
+}
