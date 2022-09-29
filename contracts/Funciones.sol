@@ -60,7 +60,5 @@ contract Funciones{
 
         return x + 2;
     }
-
-
 }
 
