@@ -32,8 +32,7 @@ contract TipoValor{
     // uint numero4 = 4;
 
     //16 bits
-
-    uint numero7 = 10;
+    uint16 numero7 = 10;
 
 
 
