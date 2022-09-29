@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 
+// Sesion 1
+
 pragma solidity ^0.8.0;
 
 contract TipoValor{
@@ -64,10 +66,4 @@ contract TipoValor{
         //Size
         uint public lengthData1 = data1.length; //1
         uint public lengthData2 = data2.length; //2
-
-
-
-
-
-
 }

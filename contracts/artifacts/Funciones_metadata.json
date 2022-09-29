@@ -118,11 +118,11 @@
 	},
 	"sources": {
 		"contracts/Funciones.sol": {
-			"keccak256": "0x4d24c6ae5fd290d1b2865630d204e93dc61289aed0095e36674751c4d4a72914",
+			"keccak256": "0x3d4c1496f1a9850036d23606fe52a0af4e858b59922b8364a5944fe036e9b6d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19e4db32657193779ddb14bb728ce09222d8c5b49d79e34938791d0a5454cd4d",
-				"dweb:/ipfs/QmdxA2hpRUpivRtLC8hdtfnBbrofGbkRR5ortKCC8ot6NW"
+				"bzz-raw://c4c9481887fd65fc048dd37b64da75bf97a34f3c4a09f293742ec763f652932e",
+				"dweb:/ipfs/QmZCJXiK9YaTeD85sFSoUXNj7yWnULTrJhBxf3NuFNyEpQ"
 			]
 		}
 	},
