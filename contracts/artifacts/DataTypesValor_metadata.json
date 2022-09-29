@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DataTypesValor.sol": "UnidadesEther"
+			"contracts/DataTypesValor.sol": "DataTypesValor"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/DataTypesValor.sol": {
-			"keccak256": "0xffb0a89a14ec6d397ecd5d4216e9259c62311916c72dfa3ed51296b37c6df8eb",
+			"keccak256": "0xae42b9e1e3d001799f6906962b0da73d567c8947dbac88b715c13b04b21ccb6e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8c27c79ff73293658169043dad7563fb4795e11d478d343cf2378d86f51ab480",
-				"dweb:/ipfs/QmVhxFJpSckSp66Wd1SqEMFAxqEv6wSbSG9DLqd9zXnmWH"
+				"bzz-raw://8634350ff37e8f62bf535e486c1b344146433c756c684c7aee34354171726e61",
+				"dweb:/ipfs/QmYJ1Dt7obcMReRMvADN6A6AVdHEBQeGohDnt51gxmSqcX"
 			]
 		}
 	},

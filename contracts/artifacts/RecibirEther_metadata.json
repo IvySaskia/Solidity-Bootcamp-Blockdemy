@@ -36,7 +36,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Transferencia.sol": "RecibirEther"
+			"contracts/TransferenciaEther.sol": "RecibirEther"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -50,7 +50,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Transferencia.sol": {
+		"contracts/TransferenciaEther.sol": {
 			"keccak256": "0xb20f2d77e310db7403a32cdb8bb6b9c091427bc08c7c421035277583da19a017",
 			"license": "MIT",
 			"urls": [
