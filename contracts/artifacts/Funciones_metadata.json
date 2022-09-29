@@ -6,6 +6,32 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"name": "cambioPrecio",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "decrementarPrecio",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getData",
 				"outputs": [
@@ -46,6 +72,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "incrementarPrecio",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "operacion1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -56,6 +89,19 @@
 				"name": "operacion2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "precio",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -118,11 +164,11 @@
 	},
 	"sources": {
 		"contracts/Funciones.sol": {
-			"keccak256": "0x3d4c1496f1a9850036d23606fe52a0af4e858b59922b8364a5944fe036e9b6d2",
+			"keccak256": "0xd66f319e66c6ef1647f1287bb07bec92fd2a780ce8bad92e3716c7a56db8d45d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c4c9481887fd65fc048dd37b64da75bf97a34f3c4a09f293742ec763f652932e",
-				"dweb:/ipfs/QmZCJXiK9YaTeD85sFSoUXNj7yWnULTrJhBxf3NuFNyEpQ"
+				"bzz-raw://4f74650da866759a10a0d4d6a9c5f32ef0e5b5978522bd7a3e2a849789410dee",
+				"dweb:/ipfs/QmfYoJqPCcUM9T2jibQ3mAjgKVJAkiFxQFWWHdKfLMKChq"
 			]
 		}
 	},

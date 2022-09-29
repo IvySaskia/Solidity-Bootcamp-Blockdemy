@@ -60,5 +60,26 @@ contract Funciones{
 
         return x + 2;
     }
+
+
+    //Modificador de funciones
+    modifier validarPrecio(){
+        require(precio < 5, "Invalido");
+        _;
+    }
+
+    uint16 public precio;
+
+    function incrementarPrecio () public validarPrecio(){
+        precio = precio + 1; 
+        emit cambioPrecio(msg.sender , precio);
+    }
+
+   function decrementarPrecio () public validarPrecio(){
+        precio = precio - 1; 
+        emit cambioPrecio(msg.sender , precio);
+    }
+
+    event cambioPrecio (address , uint16);
 }
 
