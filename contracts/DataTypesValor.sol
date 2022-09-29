@@ -55,10 +55,16 @@ contract TipoValor{
         bytes data1 = "9";
 
         //2 byte -16 bits
-        bytes data2 = "10";
+        bytes2 data2 = "10";
 
         //32 bytes
-        bytes data1 = "9";
+        bytes32 hola = "hello world";
+
+
+        //Size
+        uint public lengthData1 = data1.length; //1
+        uint public lengthData2 = data2.length; //2
+
 
 
 
