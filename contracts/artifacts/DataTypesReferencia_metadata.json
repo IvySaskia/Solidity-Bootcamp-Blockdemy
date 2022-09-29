@@ -1,0 +1,282 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addAuto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "auto1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "tipoAuto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "numLlantas",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "cantidadPuertas",
+						"type": "int8"
+					},
+					{
+						"internalType": "string",
+						"name": "marca",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "auto2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "tipoAuto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "numLlantas",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "cantidadPuertas",
+						"type": "int8"
+					},
+					{
+						"internalType": "string",
+						"name": "marca",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "flag",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEdad",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNombre",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					}
+				],
+				"name": "mappingAutos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "tipoAuto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "numLlantas",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "cantidadPuertas",
+						"type": "int8"
+					},
+					{
+						"internalType": "string",
+						"name": "marca",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "nombres",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numero2",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p1",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "vacunado",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint8",
+						"name": "edad",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nombre",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "vacunado",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint8",
+						"name": "edad",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nombre",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DataTypesReferencia.sol": "DataTypesReferencia"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataTypesReferencia.sol": {
+			"keccak256": "0xbb285dcc8620b9ac2d0d7d9667c46b7cbdb092ee5a0230316394652903c3d660",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c76cfb04bf1fe5c05790e5cb012657d82de470a1188d3970688a0376ae954ba8",
+				"dweb:/ipfs/QmYEJVtwCTNaQGduhfpqSHvPLhRStzUBboxQxjvEvN2Gzf"
+			]
+		}
+	},
+	"version": 1
+}

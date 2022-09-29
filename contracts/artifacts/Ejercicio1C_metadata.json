@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ejercicio1CuentaAhorro.sol": "Ejercicio1C"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ejercicio1CuentaAhorro.sol": {
+			"keccak256": "0x9c2b0b7d3bcaf1d117206b82e83551e1023e7cf79d4fe3c73bcbbe97290dbdc8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64edefaaece234c9cbb66c8e451ec15caf8726c609ec754397effe2e4143d1c4",
+				"dweb:/ipfs/QmaZNDtRe3nhNJ7kKSrHN5iMMXfLeHUztUKebQxrJTvnrJ"
+			]
+		}
+	},
+	"version": 1
+}

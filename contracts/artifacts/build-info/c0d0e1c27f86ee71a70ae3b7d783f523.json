@@ -1,0 +1,71 @@
+{
+	"id": "c0d0e1c27f86ee71a70ae3b7d783f523",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Ejercicio1CuentaAhorro.sol": {
+				"content": "\r\n/////////////////////////////////////////////////////////\r\n//Cuenta de ahorro\r\n\r\n//En un inicio el saldo es cero. \r\n\r\n//Ingresar saldo *\r\n//Retirar saldo *\r\n\r\n//Valide si es posible ingresar o retirar valor\r\n\r\n//Guardar mis datos\r\n// Address de cuenta - Nombre, edad, color favorito.\r\n\r\n/////////////////////////////////////////////////////////\r\n// VERSION 1\r\n\r\n// // SPDX-License-Identifier: MIT\r\n\r\n// pragma solidity ^0.8.0;\r\n\r\n// contract Ejercicio1CuentaAhorro {\r\n\r\n//     int saldo;\r\n\r\n\r\n//     function ingresarSaldo (int saldoParaIngresar) public {\r\n//         saldo += saldoParaIngresar;\r\n//     }\r\n\r\n//     function retirarSaldo (int saldoParaRetirar) public {\r\n//         saldo -= saldoParaRetirar;\r\n//     }\r\n\r\n//     function getSaldo () public view returns (int){\r\n//         return saldo;\r\n//     }\r\n// }\r\n\r\n\r\n/////////////////////////////////////////////////////////\r\n// VERSION 1\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> contracts/Ejercicio1CuentaAhorro.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/Ejercicio1CuentaAhorro.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/Ejercicio1CuentaAhorro.sol": {
+				"ast": {
+					"absolutePath": "contracts/Ejercicio1CuentaAhorro.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "899:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

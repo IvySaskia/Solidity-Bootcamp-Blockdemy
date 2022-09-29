@@ -1,0 +1,71 @@
+{
+	"id": "768e483f02e595611a59bc76b7bc83d4",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Ejercicio1CuentaAhorro.sol": {
+				"content": "\r\n/////////////////////////////////////////////////////////\r\n//Cuenta de ahorro\r\n\r\n//En un inicio el saldo es cero. \r\n\r\n//Ingresar saldo * V1\r\n//Retirar saldo * V1\r\n\r\n//Valide si es posible ingresar o retirar valor *\r\n\r\n//Guardar mis datos\r\n// Address de cuenta - Nombre, edad, color favorito. * V2\r\n\r\n/////////////////////////////////////////////////////////\r\n// VERSION 1\r\n\r\n/*\r\n\r\n// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract Ejercicio1CuentaAhorro {\r\n\r\n    int saldo;\r\n\r\n\r\n    function ingresarSaldo (int saldoParaIngresar) public {\r\n        saldo += saldoParaIngresar;\r\n    }\r\n\r\n    function retirarSaldo (int saldoParaRetirar) public {\r\n        saldo -= saldoParaRetirar;\r\n    }\r\n\r\n    function getSaldo () public view returns (int){\r\n        return saldo;\r\n    }\r\n}\r\n*/\r\n\r\n/////////////////////////////////////////////////////////\r\n// VERSION 2\r\n\r\n\r\n/*\r\n// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract Ejercicio1CuentaAhorro {\r\n\r\n    struct CuentaAhorro {\r\n        int saldo; \r\n        string addressCuenta;\r\n        string nombre;\r\n        int edad;\r\n        string colorFavorito;\r\n    }\r\n\r\n    CuentaAhorro public c1 = CuentaAhorro(0,\"Ivy\", \"0x5B38Da6a701c568545dCfcB03FcB875f56beddC4\", 25 ,\"Purpura\");\r\n\r\n\r\n    function ingresarSaldo (int saldoParaIngresar) public {\r\n        c1.saldo += saldoParaIngresar;\r\n    }\r\n\r\n    function retirarSaldo (int saldoParaRetirar) public {\r\n        c1.saldo -= saldoParaRetirar;\r\n    }\r\n}\r\n\r\n\r\n\r\n/////////////////////////////////////////////////////////\r\n// VERSION 3\r\n\r\n/*\r\n// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract Ejercicio1CuentaAhorro {\r\n\r\n    struct CuentaAhorro {\r\n        int saldo; \r\n        string addressCuenta;\r\n        string nombre;\r\n        int edad;\r\n        string colorFavorito;\r\n    }\r\n\r\n    CuentaAhorro public c1 = CuentaAhorro(0,\"Ivy\", \"0x5B38Da6a701c568545dCfcB03FcB875f56beddC4\", 25 ,\"Purpura\");\r\n\r\n    mapping (address => CuentaAhorro) public mappingCuentaAhorro;\r\n\r\n    function addCuentaAhorro ( string nombre, int edad, string colorFavorito) public {\r\n        mappingCuentaAhorro[msg.sender] = CuentaAhorro(0, nombre, msg.sender, edad, colorFavorito);   \r\n    }\r\n\r\n\r\n    function ingresarSaldo (int saldoParaIngresar) public {\r\n        c1.saldo += saldoParaIngresar;\r\n    }\r\n\r\n    function retirarSaldo (int saldoParaRetirar) public {\r\n        c1.saldo -= saldoParaRetirar;\r\n    }\r\n}\r\n*/"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> contracts/Ejercicio1CuentaAhorro.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/Ejercicio1CuentaAhorro.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/Ejercicio1CuentaAhorro.sol": {
+				"ast": {
+					"absolutePath": "contracts/Ejercicio1CuentaAhorro.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "2437:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
