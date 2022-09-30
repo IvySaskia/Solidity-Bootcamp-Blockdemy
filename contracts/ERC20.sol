@@ -2,6 +2,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//Sesion 4
+//Basandonos en -> https://eips.ethereum.org/EIPS/eip-20#implementation 
+
 // interface - ERC 165 
 
 interface IERC20 {
