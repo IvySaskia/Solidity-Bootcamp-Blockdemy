@@ -334,7 +334,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ERC200Z.sol": "BAMToken"
+			"contracts/GLDToken.sol": "BAMToken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -380,12 +380,12 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"contracts/ERC200Z.sol": {
-			"keccak256": "0xe6a636bf198200e9572cbb7f46c79e39ad88860b0dffbcd5c43a5956a8315149",
+		"contracts/GLDToken.sol": {
+			"keccak256": "0x79966759c86440572b671426082e5751026d4f6d97742360be555e200c637d82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2fe6adf092b9565c9a2e628f8319101dc2a54c8520d37c32470b1523bfde5c1d",
-				"dweb:/ipfs/Qmf8Giqeqa9hpubnohgSnbVRQ27fD5C8nXwcC2afLFURjP"
+				"bzz-raw://93b7c53031c1af91e102fb892eebc000e997eaf11dc2f5de389c77cec83f45b5",
+				"dweb:/ipfs/QmXbbdWJKEWWLtStUcCtoLKhj2UBzYxxGuE7kcKDLJTnA3"
 			]
 		}
 	},
