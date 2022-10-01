@@ -3,15 +3,20 @@
 pragma solidity ^0.8.0;
 
 // Sesion 5
+// El problema es que DepositFunds fue atacado y tenia un loop inficito que nose que pasaba, y se arregla con los sgtes cambios
+// Se soluciona con los sgte: https://docs.openzeppelin.com/contracts/4.x/api/security
+// Ver primera parte de la sesion 5
 
-contract DepositFunds {
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract DepositFunds is ReentrancyGuard{
     mapping(address => uint) public balances;
     
     function deposit() public payable {
         balances[msg.sender] += msg.value;
     }
 
-    function withdraw() public returns (bool, bytes memory) {
+    function withdraw() public nonReentrant returns (bool, bytes memory) {
         uint bal = balances[msg.sender];
         require(bal > 0, "No tienes balance que retirar");
         // (bool sent, ) = msg.sender.call{value: bal}("hola te envio tu valor"); // si no te ineresa el BYTE se pone asi
@@ -33,7 +38,7 @@ contract DepositFunds {
 contract Attack {
     DepositFunds public  depositFunds;
     address payable owner;
-
+    
     constructor(address payable  _depositFundsAddress) {
         depositFunds = DepositFunds(_depositFundsAddress);
         owner = payable(msg.sender);
@@ -43,8 +48,8 @@ contract Attack {
         if (address(depositFunds).balance >= 1 ether) {
             depositFunds.withdraw();
         }
-    }
 
+    }
     receive() external payable {
         if (address(depositFunds).balance >= 1 ether) {
             depositFunds.withdraw();
